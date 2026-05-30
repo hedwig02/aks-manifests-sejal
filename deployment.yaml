@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nginx
+        image: sejalgitopsacr2026.azurecr.io/gitops-demo-app:54
         ports:
         - containerPort: 80
